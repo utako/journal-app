@@ -1,0 +1,5 @@
+<h3>Index</h3>
+<% posts.each(function(post) {%>
+  <%= post.escape('title') %>
+  <button data-id='<%= post.escape('id') %>' class="delete">Delete</button><br>
+<% })%>
