@@ -1,0 +1,11 @@
+<h2>Edit Spell!</h2>
+
+<form>
+  <label for="post_title">Spell</label>
+  <input type="text" name="post[title]" id="post_title" value='<%= post.escape('title') %>'>
+  <label for="post_body">Body</label>
+  <input type="text" name="post[body]" id="post_body" value='<%= post.escape('body') %>'>
+  <input type="submit">
+</form>
+
+<a href="#/">Back to Index</a>

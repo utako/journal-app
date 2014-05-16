@@ -14,6 +14,23 @@
  *= require_self
  */
 
-#pic {
+#images {
+  margin: 20;
   float: right;
+}
+
+
+#cod {
+  float: left;
+}
+#pic {
+  clear: left;
+  float: left;
+/*  clear: right;*/
+}
+
+
+
+#content.div {
+  margin-left: 30px;
 }

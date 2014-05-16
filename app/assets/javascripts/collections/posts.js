@@ -1,5 +1,6 @@
 Necronomicon.Collections.Posts = Backbone.Collection.extend({
   url: "/posts",
+
   model: Necronomicon.Models.Post,
 
   getOrFetch: function (id) {

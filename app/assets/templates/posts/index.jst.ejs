@@ -1,5 +1,7 @@
 <h3>Index</h3>
 <% posts.each(function(post) {%>
-  <%= post.escape('title') %>
+  <a href="#/posts/<%= post.escape('id') %>"><%= post.escape('title') %></a>
   <button data-id='<%= post.escape('id') %>' class="delete">Delete</button><br>
 <% })%>
+
+<a href="#/posts/form">New Spell!</a>
